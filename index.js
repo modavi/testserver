@@ -2,7 +2,7 @@ const { error } = require("console");
 const http = require("http");
 const url = require('url');
 
-const host = 'localhost';
+const host = '192.168.1.90';
 const port = 8000;
 
 const requestListener = function (req, res) {
