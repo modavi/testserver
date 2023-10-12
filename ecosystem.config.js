@@ -12,7 +12,7 @@ module.exports = {
       repo : 'https://github.com/modavi/testserver.git',
       path : '/Users/morgan/Server',
       'pre-deploy-local': '',
-      'post-deploy' : '/usr/local/bin/npm install && /usr/local/bin/pm2 reload ecosystem.config.js --env production',
+      'post-deploy' : '/usr/local/bin/npm install && /usr/local/bin/pm2 reload ecosystem.config.js --env production --time',
       'pre-setup': ''
     }
   }
