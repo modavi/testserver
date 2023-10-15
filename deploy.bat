@@ -1,0 +1,1 @@
+ssh server.local "cd ~/Server/apps/testserver && git pull && npm install && pm2 start production.json"
