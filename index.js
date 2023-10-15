@@ -18,7 +18,7 @@ const requestListener = function (req, res) {
     }
     else
     {
-        res.end("My first server from my laptop!");
+        res.end("My first server from my webserver!");
     }
 };
 
