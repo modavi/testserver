@@ -2,7 +2,7 @@ const { error } = require("console");
 const http = require("http");
 const url = require('url');
 
-const host = '0.0.0.0';
+const host = '::';
 const port = 8000;
 
 const requestListener = function (req, res) {
@@ -18,7 +18,7 @@ const requestListener = function (req, res) {
     }
     else
     {
-        res.end("My first server!");
+        res.end("My first server from my laptop!");
     }
 };
 
